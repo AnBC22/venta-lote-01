@@ -283,7 +283,30 @@ h5 {
 
 .wider {
 	max-width: 390px; 
-	margin-left: 100px;
+	display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.gallery-guide {
+	width: 100%;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.gallery-guide h2,
+.gallery-guide p {
+	padding: 0;
+	color: white;
+	text-shadow: 3px 3px 10px #000000;
+}
+
+.gallery-guide h2 {
+	margin-bottom: 30px;
+}
+
+.gallery-guide p {
+
 }
 
 .whatsapp1 {
