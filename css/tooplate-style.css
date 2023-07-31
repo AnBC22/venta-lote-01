@@ -1,14 +1,6 @@
-/*
-
-Template 2096 Individual
-
-http://www.tooplate.com/view/2096-individual
-
-*/
-
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 19px;
+	font-size: 17px;
 	font-weight: 300;
 	overflow-x: hidden;
 }
@@ -34,7 +26,7 @@ a:focus {
 	align-items: center;
 }
 
-.tm-text-white { /* Using it for the white text paragraphs */
+.tm-text-white { 
 	color: #fff; 
 	text-shadow: 2px 2px 4px #000000; 
 	font-weight: bold;
@@ -93,6 +85,7 @@ h1 {
 h2 {
 	padding-bottom: 20px;
 	font-weight: bold;
+	font-size: 1.8rem;
 }
 
 h3 {
@@ -109,7 +102,7 @@ h5 {
 
 .tm-bg-white-transparent {
 	padding: 40px;
-	background-color: #ffffffc4;
+	background-color: rgb(255, 255, 255, 0.666);
 	max-width: 340px;
 	width: 100%;
 	margin: 20px;
@@ -145,18 +138,18 @@ h5 {
 .tm-bg-white-transparent-left {
 	float: right;
 	background-color: white;
-	opacity: 0.8;
+	opacity: 0.2;
 
 }
 .tm-bg-white-transparent-center {
 	display: inline-block;
 	background-color: white;
-	opacity: 0.8;
+	opacity: 0.2;
 }
 .tm-bg-white-transparent-right {
 	float: left;
 	background-color: white;
-	opacity: 0.8;
+	opacity: 0.2;
 }
 
 .tm-img-container {
