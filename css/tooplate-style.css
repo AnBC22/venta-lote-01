@@ -131,8 +131,10 @@ h5 {
 
 .tm-address-box {
 	color: white;
-	padding-left: 40px;
-	background-color: rgba(32, 64, 9, 0.4);
+	/* padding-left: 40px; */
+	padding: 10px 0px 10px 40px;
+	background-color: rgba(32, 64, 9, 0.5);
+	border-radius: 10px;
 }
 
 .tm-bg-white-transparent-left {
@@ -218,7 +220,7 @@ h5 {
 	color: white;
 	text-align:center;
 	width:100%;
-	font-size: 15.7px;
+	font-size: 12px;
 }
 
 .btn-danger {
@@ -303,10 +305,6 @@ h5 {
 
 .gallery-guide h2 {
 	margin-bottom: 30px;
-}
-
-.gallery-guide p {
-
 }
 
 .whatsapp1 {
